@@ -1,1 +1,25 @@
+😀 MI PRIMERA RECETA EN GITHUB 🍥🍔🍕
 
+PASOS:
+
+Crear un repositorio público en GitHub con su cuenta personal.
+Seguir las indicaciones "…or create a new repository on the command line" que surgen al crear el repositorio.
+echo "# nombre_repositorio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tu_usuario/nombre_repositorio.git
+git push -u origin main
+Crear la rama "develop" desde GitHub.
+Dirigirse a la rama "develop".
+Crear un archivo receta.txt y digitar la receta en él.
+Subir los cambios al repositorio en GitHub.
+Dirigirse a la rama "main".
+Fusionar las ramas.
+Subir los cambios al repositorio en GitHub.
+Desde la rama "develop" modificar el archivo receta.txt. 
+Subir los cambios al repositorio en GitHub.
+
+Solicitar un pull request.
+Aprobar pull request.  
